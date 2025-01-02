@@ -1,8 +1,9 @@
+#Author : Amit Dharmale
 import turtle
 import random
 
 
-def drawPattern(x, clr):
+def drawpattern(x, clr):
     # Create a turtle object
     t = turtle.Turtle()
     t.speed(0)
@@ -97,7 +98,7 @@ color_palettes= [["#8C5E58", "#C4A484", "#F3E9DC", "Earth Tones"],
                   ]
 for a in range(100):
     randomNumber = random.randint(0, 49)
-    drawPattern(randomNumber, color_palettes[randomNumber])
+    drawpattern(randomNumber, color_palettes[randomNumber])
 
 # Keep the window open until manually closed
 turtle.done()
